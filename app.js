@@ -23,5 +23,5 @@ controller('CacheController', ['$scope','CacheFactory','$window','$http', functi
 			$scope.name = pageCache.get("name");
 			$scope.company = pageCache.get("Company");
 			
-			console.log("name = "+pageCache.get("name") + "Company = "+pageCache.get("Company"));						 
+			console.log("name  = "+pageCache.get("name") + "Company  = "+pageCache.get("Company"));						 
 }]); 
